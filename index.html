@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saumya Srivastav | Portfolio</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            background:#f4f4f4;
+            color:#333;
+        }
+        header{
+            background:#111;
+            color:#fff;
+            padding:20px 0;
+            text-align:center;
+        }
+        header h1{
+            font-size:32px;
+        }
+        nav{
+            margin-top:10px;
+        }
+        nav a{
+            color:white;
+            margin:0 15px;
+            text-decoration:none;
+            font-weight:bold;
+        }
+        nav a:hover{
+            color:#00adb5;
+        }
+        section{
+            padding:70px 10%;
+        }
+         /* .home{
+             text-align:left;
+        }  */
+        .home h2{
+            font-size:28px;
+            margin-bottom:10px;
+        }
+        .home p{
+            font-size:18px;
+        }
+        .about, .projects, .contact{
+            margin-top:30px;
+            background:white;
+            padding:40px;
+            border-radius:8px;
+            box-shadow:0 0 10px rgba(0,0,0,0.1);
+        }
+        .projects .project-card{
+            background:#eaeaea;
+            padding:15px;
+            margin:15px 0;
+            border-radius:6px;
+        }
+        .contact input, .contact textarea{
+            width:100%;
+            padding:10px;
+            margin:10px 0;
+            border-radius:5px;
+            border:1px solid #ccc;
+        }
+        .contact button{
+            padding:10px 20px;
+            border:none;
+            background:#00adb5;
+            color:white;
+            font-weight:bold;
+            border-radius:5px;
+            cursor:pointer;
+        }
+        .contact button:hover{
+            background:#007b80;
+        }
+        footer{
+            text-align:center;
+            padding:20px;
+            background:#111;
+            color:white;
+            margin-top:30px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Saumya Srivastav</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="home" class="home">
+    <div style="display:flex; align-items:center; gap:20px;">
+        <div style="flex:1;">
+            <h2>Hello, I'm Saumya 👋</h2>
+            <p>B.Tech CSE-DS Student | IoT Enthusiast | C Programmer</p>
+        </div>
+        <div style="flex:1; text-align:center;">
+            <img src="myimage.jpeg" height="300">
+        </div>
+    </div>
+</section>
+
+<section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+        I am a Data Science student passionate about web development, IoT projects,
+        and programming in C and Python. I enjoy building real-world projects like night lamp using Arduino UNO and LDR Sensor and
+        smoke detectors using ESP32 and MQ135.
+    </p>
+</section>
+
+<section id="projects" class="projects">
+    <h2>My Projects</h2>
+
+    <div class="project-card">
+        <h3>🔹 Smoke Detector using ESP32</h3>
+        <p>IoT based smoke detection system using MQ135 sensor, ESP32 and Blynk app.</p>
+    </div>
+
+    <div class="project-card">
+        <h3>🔹 C Programming Mini Projects</h3>
+        <p>Programs like factorial, palindrome, Armstrong number, LCM, GCD and more.</p>
+    </div>
+
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>
+        <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/saumya-srivastav-075745383?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">linkedin.com/in/yourprofile</a>
+    </p>
+    <p>
+        <strong>GitHub:</strong> <a href=" https://share.google/Dl6zzqzzRIzajJoXI" target="_blank">github.com/yourprofile</a>
+    </p>
+</section>
+
+<footer>
+
+    <p>© 2026 Saumya Srivastav | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
